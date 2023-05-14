@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info.InformacionActivity">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/my_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/texColoVAl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textColor"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textFundador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/fundador"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textColor" />
+
+        <TextView
+            android:id="@+id/texFundadorVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textFundador"
+            app:layout_constraintTop_toBottomOf="@id/texColoVAl" />
+
+        <TextView
+            android:id="@+id/textAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/animal"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textFundador" />
+
+        <TextView
+            android:id="@+id/texAnimalVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textAnimal"
+            app:layout_constraintTop_toBottomOf="@id/texFundadorVal" />
+
+        <TextView
+            android:id="@+id/textElemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/elemento"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textAnimal" />
+
+        <TextView
+            android:id="@+id/texElementoVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textElemento"
+            app:layout_constraintTop_toBottomOf="@id/textAnimal" />
+
+        <TextView
+            android:id="@+id/textFantasma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/fantasma"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textElemento" />
+
+        <TextView
+            android:id="@+id/texFantasmaVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textFantasma"
+            app:layout_constraintTop_toBottomOf="@id/textElemento" />
+
+        <TextView
+            android:id="@+id/textsala_comun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/sala_comun"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textFantasma" />
+
+        <TextView
+            android:id="@+id/texsalacomunVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textsala_comun"
+            app:layout_constraintTop_toBottomOf="@id/textFantasma" />
+
+        <TextView
+            android:id="@+id/textrasgos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/rasgos_caracteristicas"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textsala_comun" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvrasgosval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textrasgos" />
+
+        <TextView
+            android:id="@+id/textLideres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/fundador"
+            android:textColor="@color/hufflepuff_light_canary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rvrasgosval" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLideres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Red"
+            android:paddingStart="20dp"
+            android:textColor="@color/revenclaw_the_grey_lady"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textLideres"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

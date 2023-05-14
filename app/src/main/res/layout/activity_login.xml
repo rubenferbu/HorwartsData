@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewlogo"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_logo"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"/>
+
+    <EditText
+        android:id="@+id/editTextUserLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="350dp"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_imput"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="12dp"
+        android:hint="@string/user_edit_text"
+        android:textSize="30sp"
+        android:minHeight="48dp"
+        android:textColor="@color/hufflepuff_canary"
+        android:autofillHints="si"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlogo"/>
+    
+    <EditText
+        android:id="@+id/editTextPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="488dp"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_imput"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="12dp"
+        android:hint="@string/pass_edit_text"
+        android:textSize="30sp"
+        android:autofillHints="no"
+        android:minHeight="48dp"
+        android:textColor="@color/hufflepuff_canary"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserLogin"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/login_button_text"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "57024776899",
+    "project_id": "hogwarts-data",
+    "storage_bucket": "hogwarts-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57024776899:android:278c608e0aad8172a8b076",
+        "android_client_info": {
+          "package_name": "com.serbatic.hogwartsdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57024776899-h9efitifk3q9fpec1giuku36p8ngtutj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBArWMbuD6JLiQDCbgvTXqnog2zGRVAK2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57024776899-h9efitifk3q9fpec1giuku36p8ngtutj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

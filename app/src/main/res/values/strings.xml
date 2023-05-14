@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HOGWARTS</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="reintentar">REINTENTAR</string>
+    <!--Dialog-->
+    <string name="titulo_login">Error</string>
+    <string name="titulo_salir">Cerrar Sesión</string>
+    <string name="mensaje_sali">Estás a punto de cerrar la sesión. ¿Estás seguro?</string>
+    <string name="mensaje_login">Verifique los datos o vuelva a intentarlo</string>
+
+    <!--Activity Login-->
+    <string name="login_button_text">Login</string>
+    <string name="user_edit_text">Usuario</string>
+    <string name="pass_edit_text">Contraseña</string>
+
+    <!--Activity Casas y Favoritos-->
+    <string name="titulo_casas_favoritos">CASAS Y FAVORITOS</string>
+
+    <!--Activity Informacion-->
+    <string name="titulo_informacion">Información</string>
+    <string name="color">Colores principales de la casa</string>
+    <string name="fundador">Fundador</string>
+    <string name="animal">Animal</string>
+    <string name="elemento">Elemento</string>
+    <string name="fantasma">Fantasma</string>
+    <string name="sala_comun">Sala común</string>
+    <string name="rasgos_caracteristicas">Rasgos y Características</string>
+    <string name="líderes_de_la_casa">Líderes de la Casa</string>
+
+</resources>
